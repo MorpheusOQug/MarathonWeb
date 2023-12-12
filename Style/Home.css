@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table-container {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.table-container th {
+    background-color: #f0f0f0;
+}
